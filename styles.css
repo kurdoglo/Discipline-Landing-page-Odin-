@@ -77,12 +77,11 @@ img {
 }
 
 /* Second section */
-.container2 {
+#about {
   background-color: #e5e7eb;
-  flex: 1;
 }
 
-.container2 h2 {
+#about h2 {
   text-align: center;
   margin-bottom: 32px;
   font-size: 36px;
@@ -97,15 +96,74 @@ img {
 .info {
   max-width: 200px;
 }
-.container2 img {
+#about img {
   width: 200px;
   height: 200px;
   border: 2px solid #0f4aaa;
   border-radius: 10px;
 }
-.container2 p {
+#about p {
   font-size: 18px;
   color: #515356;
   width: 230px;
   font-weight: 500;
+}
+/* Third section */
+#quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+#quote .author {
+  font-size: 24px;
+  margin-left: 550px;
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6d6d6;
+  height: 400px;
+  flex-direction: column;
+}
+/* Fourth Section */
+#call-to-action {
+  height: 343px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.try-container {
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  width: 800px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  color: aliceblue;
+}
+.text2 {
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.sign-up-call-to-action {
+  border-radius: 15px;
+  padding: 10px 35px;
+  background-color: #3882f6;
+  color: #daded6;
+  font-size: 19px;
+  border-color: #f3f3f3;
+  margin: 10px 45px;
+  text-align: center;
 }
